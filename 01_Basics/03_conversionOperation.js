@@ -8,9 +8,6 @@ let score = "Sam";
 // let score = false;
 
 
-console.log(typeof score);
-console.log(typeof (score));
-
 let valueInNumber = Number (score);
 console.log(typeof valueInNumber);
 console.log(typeof valueInNumber);
@@ -27,9 +24,9 @@ console.log(valueInNumber);
 // let isLoggedIn = 1;
 // let isLoggedIn = 0;
 // let isLoggedIn = "";
-let isLoggedIn = "sam";
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// let isLoggedIn = "sam";
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 
         //    NOTE
@@ -40,7 +37,20 @@ console.log(booleanIsLoggedIn)
 
 
 
-    let anyNumber = 32;
-    let stringNumber = String(anyNumber);
-    console.log(stringNumber);
-    console.log(typeof stringNumber);
+        //      Number to String 
+//     let anyNumber = 32;
+//     let stringNumber = String(anyNumber);
+//     console.log(stringNumber);
+//     console.log(typeof stringNumber);
+
+
+
+
+
+                //       OPERATIONS
+
+   let value = 4;
+   //    let posValue = +value;
+   let negValue = -value;
+   
+   console.log(posValue);              
